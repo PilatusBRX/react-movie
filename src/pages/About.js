@@ -14,7 +14,10 @@ const About = () => {
           </a>
         </p>
         <br />
-        <p>Link of the file: </p>
+        <p>
+          Link of the Github files: https://github.com/PilatusBRX/react-movie{' '}
+        </p>
+        <p>Demo of the site: https://netmovie.netlify.app/</p>
       </div>
     </Fragment>
   );
