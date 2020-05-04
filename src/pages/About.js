@@ -17,6 +17,7 @@ const About = () => {
         <p>
           Link of the Github files: https://github.com/PilatusBRX/react-movie{' '}
         </p>
+        <br />
         <p>Demo of the site: https://netmovie.netlify.app/</p>
       </div>
     </Fragment>
