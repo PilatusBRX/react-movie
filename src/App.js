@@ -18,7 +18,7 @@ const App = () => {
   //Get Movies
   useEffect(() => {
     setLoading(true);
-    fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${API}&s=dragon ball`)
+    fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${API}&s=dragon ball`)
       .then((response) => response.json())
       .then((jsonResponse) => {
         setMovies(jsonResponse.Search);
