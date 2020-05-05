@@ -15,10 +15,21 @@ const About = () => {
         </p>
         <br />
         <p>
-          Link of the Github files: https://github.com/PilatusBRX/react-movie{' '}
+          Link of the Github files:{' '}
+          <a href=' https://github.com/PilatusBRX/react-movie' target='_blank'>
+            https://github.com/PilatusBRX/react-movie
+          </a>
         </p>
         <br />
-        <p>Demo of the site: https://netmovie.netlify.app/</p>
+        <p>
+          You can see all projects in my website:{' '}
+          <a
+            href='https://portfolio.hellostudio.com.br/#portfolio'
+            target='_blank'
+          >
+            https://portfolio.hellostudio.com.br/#portfolio
+          </a>
+        </p>
       </div>
     </Fragment>
   );
